@@ -1,7 +1,7 @@
 {
-  "name": "itty-durable",
+  "name": "itty-durable-safe",
   "description": "Simplified interface for Cloudflare Durable Objects",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "main": "./index.js",
   "keywords": [
     "cloudflare",
@@ -21,13 +21,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kwhitley/itty-durable.git"
+    "url": "git+https://github.com/nikitapilgrim/itty-durable-safe.git"
   },
-  "author": "Kevin R. Whitley <krwhitley@gmail.com>",
+  "author": "Nikita Pilgrim",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kwhitley/itty-durable/issues",
-    "email": "krwhitley@gmail.com"
+    "url": "https://github.com/nikitapilgrim/itty-durable-safe.git/issues"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20230518.0",
@@ -39,12 +38,15 @@
     "isomorphic-fetch": "^3.0.0",
     "itty-router": "^4.0.9",
     "jsdom": "^22.1.0",
+    "prettier": "^3.1.1",
     "rimraf": "^5.0.1",
+    "superjson": "^2.2.1",
     "typescript": "^5.0.4",
     "vitest": "^0.31.4",
     "yarn-release": "^1.10.5"
   },
   "peerDependencies": {
-    "itty-router": "^4.0.9"
+    "itty-router": "^4.0.9",
+    "superjson": "^2.2.1"
   }
 }
