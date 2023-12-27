@@ -1,7 +1,7 @@
 {
   "name": "itty-durable-safe",
   "description": "Simplified interface for Cloudflare Durable Objects",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "main": "./index.js",
   "keywords": [
     "cloudflare",
